@@ -1,0 +1,17 @@
+{
+  "expo": {
+    "name": "Portofolio Saya",
+    "slug": "portofolio-simple",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "light",
+    "platforms": [
+      "ios",
+      "android",
+      "web"
+    ],
+    "plugins": [
+      "expo-font"
+    ]
+  }
+}
