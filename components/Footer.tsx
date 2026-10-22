@@ -1,7 +1,7 @@
 import React from 'react';
 import { Text, StyleSheet } from 'react-native';
 
-// Component 6: Footer
+// Component: Footer
 // Props: nama
 type FooterProps = {
   nama: string;

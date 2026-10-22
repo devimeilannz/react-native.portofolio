@@ -1,8 +1,8 @@
 import React from 'react';
 import { Text, StyleSheet } from 'react-native';
 
-// Component 2: SectionTitle
-// Dipakai untuk judul tiap bagian (Skill, Proyek, Kontak)
+// Component: SectionTitle
+// Dipakai untuk judul tiap bagian (Keahlian, Proyek, dan lainnya)
 // Props: judul
 type SectionTitleProps = {
   judul: string;
@@ -17,7 +17,8 @@ const styles = StyleSheet.create({
     fontSize: 26,
     fontFamily: 'PlayfairDisplay_700Bold',
     color: '#4a3426',
-    marginTop: 35,
-    marginBottom: 15,
+    textAlign: 'center',
+    marginTop: 40,
+    marginBottom: 5,
   },
 });

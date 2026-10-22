@@ -9,33 +9,51 @@ export const profil = {
   foto: require('../assets/foto.jpeg'),
 };
 
+export const daftarStatistik = [
+  { id: 1, angka: '3', label: 'Proyek' },
+  { id: 2, angka: '2', label: 'Tahun Belajar' },
+  { id: 3, angka: '6', label: 'Skill' },
+];
+
 export const daftarSkill = [
-  { id: 1, nama: 'React Native' },
-  { id: 2, nama: 'JavaScript' },
-  { id: 3, nama: 'Laravel' },
-  { id: 4, nama: 'MySQL' },
+  { id: 1, nama: 'React Native', ikon: '📱', deskripsi: 'Membuat aplikasi mobile.' },
+  { id: 2, nama: 'JavaScript', ikon: '🌐', deskripsi: 'Membuat web sederhana.' },
+  { id: 3, nama: 'MySQL', ikon: '🗄️', deskripsi: 'Mengelola data dengan database.' },
+  { id: 4, nama: 'Laravel', ikon: '⚙️', deskripsi: 'Membuat API dan CRUD.' },
+  { id: 5, nama: 'Desain UI', ikon: '🎨', deskripsi: 'Menata tampilan agar rapi.' },
+  { id: 6, nama: 'Kerja Tim', ikon: '🤝', deskripsi: 'Mengerjakan proyek bersama.' },
+];
+
+export const daftarTentang = [
+  'Siswi RPL SMK Telkom Malang',
+  'Sedang belajar React Native',
+  'Suka mencoba hal baru',
+  'Sudah mengerjakan 3 proyek',
 ];
 
 export const daftarProyek = [
   {
     id: 1,
-    judul: 'Database Perpustakaan',
-    deskripsi: 'Data buku perpustakaan dibuat dengan Laravel.',
+    judul: 'Meilody Pet Grooming',
+    deskripsi: 'Mengembangkan backend aplikasi grooming hewan dengan REST API, mengelola database MySQL, dan deployment online untuk mendukung integrasi data customer, layanan grooming, serta kebutuhan hewan.',
+    gambar: require('../assets/proyek1.jpg'),
   },
   {
     id: 2,
-    judul: 'Wayfinding Sekolah',
-    deskripsi: 'Peta sekolah berbasis web yang dibuka lewat QR code.',
+    judul: 'PDAM Website',
+    deskripsi: 'Mengembangkan antarmuka website PDAM menggunakan Next.js untuk menampilkan info tagihan, pembayaran, dan status layanan customer secara responsif dan terstruktur.',
+    gambar: require('../assets/proyek2.webp'),
   },
   {
     id: 3,
-    judul: 'Aplikasi Catatan',
-    deskripsi: 'Aplikasi untuk mencatat tugas harian.',
+    judul: 'Undangan Wisuda Digital',
+    deskripsi: 'Membuat website undangan digital interaktif menggunakan HTML, CSS, dan JavaScript yang menyediakan informasi acara serta memudahkan pengguna mengakses detail kegiatan wisuda.',
+    gambar: require('../assets/proyek3.jpg'),
   },
 ];
 
 export const daftarKontak = [
-  { id: 1, nama: 'Email', isi: 'nama@email.com' },
-  { id: 2, nama: 'GitHub', isi: 'github.com/namakamu' },
-  { id: 3, nama: 'Instagram', isi: '@namakamu' },
+  { id: 1, nama: 'Email', isi: 'Rasenja01@email.com' },
+  { id: 2, nama: 'GitHub', isi: 'github.com/devimeilanilnanz' },
+  { id: 3, nama: 'Instagram', isi: '@devimeilann._' },
 ];
